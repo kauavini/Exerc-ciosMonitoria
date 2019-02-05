@@ -1,9 +1,7 @@
 def escrever(t):
-	print('-=' * len(a))
-	print(a)
-	print('-=' * len(a))
-	return
+	print('-=' * len(t))
+	print(t)
+	print('-=' * len(t))
 
-
-print(escrever(int(input('Digite um valor: '))))
+escrever(str(input('Digite um uma frase: ')))
 
